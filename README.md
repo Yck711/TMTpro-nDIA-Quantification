@@ -65,7 +65,7 @@ Step 5 also imports three other files that must sit in the **same directory**. T
 
 The 18-channel CSV written by step 5 is the general quantitative result. The 12-channel table, the E. coli ratio CSVs, and the PDF use this study's channel layout. They are not meaningful for a different TMTpro design. Details and the failure mode are in [USAGE.md](USAGE.md).
 
-## Method, short version
+## Method
 
 **Candidate MS2.** The scan retention time is inside the precursor's DIA-NN `RT.Start`–`RT.Stop` interval, inclusive. The precursor M0, or M1 = M0 + 1.00335 / charge, falls inside the isolation window recorded in the mzML.
 
